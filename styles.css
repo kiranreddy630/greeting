@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+/*.container{
+    background-size: 100vh;
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: relative;
+}*/
+.background_img{
+    background-size: 100vh;
+    width:100%;
+    height: 100vh;
+}
+.date_day_time{
+    background-color: black;
+    
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    color:rgb(51, 51, 168);
+    padding: 25px;
+    border-radius: 10px;
+    border:3px solid rgb(51, 51, 168) ;
+    
+}
+.greet{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:rgb(156, 199, 152);
+    font-size: 120px;
+    font-family:initial;
+    font-weight: bold;
+}
+.Sunrise {
+    position: absolute;  
+    width: 360px;  
+    height: 360px;  
+    background-image: url("sunrise.png");  
+    background-repeat: no-repeat;
+  }
+  .Sunny {
+    position: relative;  
+    width: 360px;  
+    height: 360px;  
+    background-image: url("sunny.jpg"); 
+    background-repeat: no-repeat;
+   }
+   .Evening {
+    position: relative;  
+    width: 360px;  
+    height: 360px;  
+    background-image: url("sunset.jpg"); 
+    background-repeat: no-repeat;
+   }
+   .Night {
+    position: relative;  
+    width: 360px;  
+    height: 360px;  
+    background-image: url("night.jpeg"); 
+    background-repeat: no-repeat;
+   }
